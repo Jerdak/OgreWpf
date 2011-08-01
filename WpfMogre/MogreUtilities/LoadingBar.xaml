@@ -1,0 +1,9 @@
+﻿<Window x:Class="WpfMogre.MogreUtilities.LoadingBar"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="LoadingBar" Height="166" Width="612">
+    <Grid>
+        <ProgressBar Margin="12,51,12,42" Name="pbProgress" />
+        <Label Height="26" Margin="12,19,17,0" Name="lblCaption" VerticalAlignment="Top">Label</Label>
+    </Grid>
+</Window>
